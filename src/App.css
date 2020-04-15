@@ -61,11 +61,22 @@ h2:hover{
 
 #title {
   font-style: italic;
-  font-size: larger;
+  font-size: 20px;
   color: purple;
   font-weight: bolder;
   
 }
+
+#author {
+  font-size: 18px;
+  font-style: oblique;
+  font-weight: bold;
+}
+
+#rating {
+  font-weight: bold;
+  font-size: 18px;
+  }
 
 .postList {
   display: flex;
@@ -75,6 +86,14 @@ h2:hover{
   background-color:  light yellow;
 }
 
+#comments {
+  font-style: italic;
+  font-weight: bold;
+}
+
+#length {
+  font-weight: bold;
+}
 
 
 

@@ -11,11 +11,11 @@ const Post = ({post}) => {
     
 
       <h2 id="title">{post.title}</h2>
-      <p>{post.resourceAuthor}</p>
-      {post.videoLength ? (<p>Length: {post.videoLength}</p>) : null }
+      <p id="author">{post.resourceAuthor}</p>
+      {post.videoLength ? (<p id="length">Length: {post.videoLength}</p>) : null }
       {/* {conditional ? true code : false code} */}
-      <p>Rating: {post.rating}</p>
-      <p>Comments: {post.comments.length}</p>
+      <p id="rating">Rating: {post.rating}</p>
+      <p id="comments">Comments: {post.comments.length}</p>
     </div>
   )
 }
